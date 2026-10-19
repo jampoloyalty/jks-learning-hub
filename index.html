@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#f5f6f3" />
+    <meta name="description" content="JKS Loyalty's AI & Technologies — Computing learning for Ghanaian Basic 7–9 students, teachers and BECE learners." />
+    <title>JKS Learning Hub — Computing first</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="app-shell">
+      <aside class="sidebar" id="sidebar">
+        <a class="brand" href="#home" aria-label="JKS Learning Hub home">
+          <span class="brand-mark" aria-hidden="true"><span></span><span></span><span></span><span></span></span>
+          <span class="brand-lockup"><span class="brand-name">JKS <span>Learning Hub</span></span><span class="brand-subtitle">LOYALTY'S AI & TECHNOLOGIES</span></span>
+        </a>
+
+        <div class="sidebar-label">LEARN</div>
+        <nav class="primary-nav" aria-label="Main navigation">
+          <button class="nav-link active" data-view="home"><span class="nav-icon">⌂</span><span>Start learning</span></button>
+          <button class="nav-link computing-nav" data-view="topics"><span class="nav-icon">▦</span><span>Computing</span><span class="nav-tag">FOCUS</span></button>
+          <button class="nav-link" data-view="teachers"><span class="nav-icon">▤</span><span>Teacher lesson plans</span></button>
+          <button class="nav-link" data-view="ji"><span class="nav-icon">✦</span><span>JI learning assistant</span></button>
+          <button class="nav-link" data-view="bece"><span class="nav-icon">↗</span><span>BECE → SHS guide</span></button>
+          <button class="nav-link" data-view="saved"><span class="nav-icon">♡</span><span>Saved for later</span></button>
+          <button class="nav-link" data-view="progress"><span class="nav-icon">◷</span><span>My progress</span></button>
+        </nav>
+
+        <div class="sidebar-divider"></div>
+        <div class="sidebar-label">COMPUTING CLASS</div>
+        <div class="grade-shortcuts" aria-label="Choose your class">
+          <button class="grade-shortcut active" data-grade="7"><span class="grade-dot dot-7"></span>Basic 7</button>
+          <button class="grade-shortcut" data-grade="8"><span class="grade-dot dot-8"></span>Basic 8</button>
+          <button class="grade-shortcut" data-grade="9"><span class="grade-dot dot-9"></span>Basic 9</button>
+        </div>
+
+        <div class="sidebar-bottom">
+          <div class="help-card">
+            <div class="help-spark">✦</div>
+            <strong>Meet JI</strong>
+            <p>Jampo Intelligence will help make learning clearer, one step at a time.</p>
+            <span class="help-decoration" aria-hidden="true">↗</span>
+          </div>
+          <div class="sidebar-foot"><span class="ghana-dots"><i></i><i></i><i></i></span> By Jampo Kwadwo Sampson</div>
+        </div>
+      </aside>
+
+      <main class="main-area">
+        <header class="topbar">
+          <button class="mobile-menu" id="menuToggle" aria-label="Open navigation" aria-expanded="false">☰</button>
+          <div class="breadcrumbs"><span>Learning space</span><span class="crumb-slash">/</span><strong id="breadcrumbCurrent">My learning</strong></div>
+          <div class="top-actions">
+            <label class="search-box" for="searchInput"><span class="search-icon">⌕</span><input id="searchInput" type="search" placeholder="Find a topic..." autocomplete="off" /><kbd>⌘ K</kbd></label>
+            <div class="student-pill"><span class="student-avatar">G</span><span>Guest mode</span></div>
+            <button class="account-button" data-action="account">Create account</button>
+          </div>
+        </header>
+
+        <div class="content-wrap" id="appContent" tabindex="-1"></div>
+        <footer class="page-footer"><span>JKS Loyalty's AI & Technologies <span class="footer-dot">•</span> Jampo Kwadwo Sampson</span><span>Computing first · Built for Ghanaian learners and teachers</span></footer>
+      </main>
+    </div>
+
+    <div class="toast" id="toast" role="status" aria-live="polite"></div>
+    <div class="modal-root" id="globalModal" aria-live="polite"></div>
+    <script src="assets/components-computers-basic7-9.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>
