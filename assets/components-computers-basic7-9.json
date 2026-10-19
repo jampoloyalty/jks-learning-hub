@@ -1,0 +1,898 @@
+{
+  "id": "components-computers-systems-b7-b9",
+  "title": "Components of Computers and Computer Systems",
+  "subtitle": "A clear Computing guide for Basic 7, Basic 8 and Basic 9",
+  "author": "Jampo Kwadwo Sampson",
+  "brand": "JKS Loyalty's AI & Technologies",
+  "series": "JKS Learning Hub | Computing first",
+  "edition": "Learning chapter draft | October 2026",
+  "description": "An original, learner-friendly chapter with Ghana curriculum mapping, examples, diagrams, practice and teacher activities.",
+  "copyright_note": "Original learning material prepared for JKS Learning Hub. This draft is not a NaCCA-approved textbook.",
+  "curriculum_note": "This topic follows the NaCCA Computing Curriculum for Basic 7-9, Strand 1: Introduction to Computing, Sub-strand 1: Components of Computers and Computer Systems. The outcomes change by grade. Use the grade-specific indicators below when teaching and revising.",
+  "grades": [
+    {
+      "grade": "Basic 7",
+      "code": "B7.1.1.1",
+      "focus": "Examine the parts of a computer. Discuss fourth-generation computers, identify a microchip, explore processor architecture, and study input, output and storage devices.",
+      "memory": "Name the component, state its job, then give a suitable example."
+    },
+    {
+      "grade": "Basic 8",
+      "code": "B8.1.1.1",
+      "focus": "Identify computer parts and technology tools. The curriculum asks learners to discuss fifth-generation computers with emphasis on quantum computing, direct data-entry devices and specialised output devices.",
+      "memory": "Be ready to classify a device and describe how it is used in a real situation."
+    },
+    {
+      "grade": "Basic 9",
+      "code": "B9.1.1.1",
+      "focus": "Identify computer parts and technology tools. Explore next-generation trends, perceptual computing, emerging output devices and advanced storage systems.",
+      "memory": "Explain the idea, give an example, and state a benefit or limitation."
+    }
+  ],
+  "outcomes": [
+    "Explain what a computer and a computer system are.",
+    "Distinguish hardware, software, data, users and procedures.",
+    "Trace data through input, processing, output and storage.",
+    "Classify common input, processing, output, storage and communication devices.",
+    "Describe the functions of the motherboard, processor, memory, storage and other internal parts.",
+    "Compare RAM with secondary storage and compare magnetic, optical and solid-state storage.",
+    "Explain the Basic 7, Basic 8 and Basic 9 curriculum focus on computer generations and emerging technologies.",
+    "Describe perceptual computing and give a balanced example of its use."
+  ],
+  "sections": [
+    {
+      "title": "1. A computer is a working system",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "A computer is an electronic device that follows instructions to accept data, process it, store it and produce useful results. A computer system includes the parts that work together to complete a task. A desktop, laptop, tablet, phone, digital camera, school server and point-of-sale terminal can each be part of a computer system."
+        },
+        {
+          "type": "paragraph",
+          "text": "The system needs more than a box of parts. Hardware provides the physical equipment. Software gives instructions. Data supplies the facts to work on. People choose goals and use the results. Procedures explain how the work should be done. A network may connect the device to other computers or online services."
+        },
+        {
+          "type": "table",
+          "headers": [
+            "Part of the system",
+            "Meaning",
+            "School example"
+          ],
+          "rows": [
+            [
+              "Hardware",
+              "Physical parts that can be seen or touched.",
+              "Keyboard, monitor, processor, printer."
+            ],
+            [
+              "Software",
+              "Programs and instructions that tell hardware what to do.",
+              "Operating system and spreadsheet app."
+            ],
+            [
+              "Data",
+              "Facts entered or collected for processing.",
+              "Quiz marks such as 16, 18 and 20."
+            ],
+            [
+              "People",
+              "Users who set a goal, enter data or use results.",
+              "Teacher, learner or ICT facilitator."
+            ],
+            [
+              "Procedures",
+              "Agreed steps for using the system correctly.",
+              "Check marks, save the file and protect access."
+            ],
+            [
+              "Communication",
+              "Connections that move data between devices or services.",
+              "Wi-Fi, Ethernet, router or mobile network."
+            ]
+          ]
+        },
+        {
+          "type": "callout",
+          "title": "Do not confuse the CPU and the system unit",
+          "text": "The CPU is the processor chip that carries out instructions. The system unit is the case that holds parts such as the motherboard, processor, memory, storage and power supply. People sometimes call the whole case 'the CPU' in everyday speech, but the precise Computing term is system unit."
+        },
+        {
+          "type": "diagram",
+          "id": "system"
+        }
+      ]
+    },
+    {
+      "title": "2. Four jobs computers perform",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "A useful way to follow a computer's work is IPOS: Input, Processing, Output and Storage. The stages can repeat or happen close together. Storage can be used before, during or after processing; it is not always the final action."
+        },
+        {
+          "type": "table",
+          "headers": [
+            "Stage",
+            "What happens",
+            "Example"
+          ],
+          "rows": [
+            [
+              "Input",
+              "Data or instructions enter the system.",
+              "A teacher types a learner's quiz mark."
+            ],
+            [
+              "Processing",
+              "The processor follows program instructions to organise or calculate the data.",
+              "A spreadsheet calculates the class average."
+            ],
+            [
+              "Output",
+              "The system presents a result people or other devices can use.",
+              "The average appears on screen or on paper."
+            ],
+            [
+              "Storage",
+              "Data, programs or results are kept for later use.",
+              "The teacher saves the spreadsheet to a drive."
+            ]
+          ]
+        },
+        {
+          "type": "diagram",
+          "id": "ipos"
+        },
+        {
+          "type": "callout",
+          "title": "Data and information",
+          "text": "Data are facts before they have been organised for a purpose. Information is data processed into a result that is useful to someone. In the class-mark example, separate marks are data; a correctly calculated average with a clear label is information."
+        },
+        {
+          "type": "paragraph",
+          "text": "Try another example: when a learner scans a QR code on a school notice, the camera is an input device. The browser or app processes the code. The screen shows the linked notice as output. The device or online service may store browsing or page data, depending on its settings."
+        }
+      ]
+    },
+    {
+      "title": "3. Input and output devices",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "An input device sends data or control signals into a computer. An output device presents information from a computer. A peripheral is a device connected to a computer to add input, output, storage or communication functions."
+        },
+        {
+          "type": "table",
+          "headers": [
+            "Role",
+            "Examples",
+            "What the device does"
+          ],
+          "rows": [
+            [
+              "Input",
+              "Keyboard, mouse, microphone, webcam, scanner, touchscreen, sensor.",
+              "Enters words, movement, sound, images or measurements."
+            ],
+            [
+              "Direct or automatic input",
+              "Barcode reader, QR-code reader, RFID reader, magnetic-card reader, optical-card reader, graphics tablet.",
+              "Captures data from a code, card, tag or pen movement with less typing."
+            ],
+            [
+              "Output",
+              "Monitor, projector, speakers, headphones, inkjet or laser printer, plotter, Braille printer, 3D printer.",
+              "Shows, prints, plays or produces processed results."
+            ],
+            [
+              "Input and output",
+              "Touchscreen, multifunction printer, headset with microphone, network adapter.",
+              "Sends data in one direction and receives or presents it in another."
+            ]
+          ]
+        },
+        {
+          "type": "callout",
+          "title": "One device can have two roles",
+          "text": "A touchscreen displays pictures and text, so it is an output device. It also detects a person's touch, so it is an input device. A multifunction printer can scan into a computer and print from it."
+        },
+        {
+          "type": "paragraph",
+          "text": "In Basic 7, practise distinguishing manual input, such as typing on a keyboard, from direct or automatic input, such as a barcode reader. In Basic 8, learn how graphic tablets, magnetic and optical card readers, QR-code readers and RFID readers capture data. Specialised output can include Braille, impact, inkjet, thermal, wax and 3D printers."
+        },
+        {
+          "type": "paragraph",
+          "text": "Accessible output matters. A screen reader turns text into speech, a Braille display presents changing text by touch, and captions show spoken words as text. These tools help people access information in different ways."
+        }
+      ]
+    },
+    {
+      "title": "4. Important parts inside a computer",
+      "blocks": [
+        {
+          "type": "table",
+          "headers": [
+            "Component",
+            "Main job",
+            "Remember"
+          ],
+          "rows": [
+            [
+              "Motherboard",
+              "Main circuit board that connects the processor, memory, storage and ports.",
+              "It provides paths for parts to communicate."
+            ],
+            [
+              "CPU / processor",
+              "Executes program instructions and processes data.",
+              "CPU means Central Processing Unit. It is a chip, not the whole case."
+            ],
+            [
+              "Control Unit (CU)",
+              "Coordinates instruction steps and signals other parts.",
+              "It helps direct the processor's work."
+            ],
+            [
+              "Arithmetic Logic Unit (ALU)",
+              "Performs arithmetic and comparisons such as greater than or equal to.",
+              "It handles calculations and logical tests."
+            ],
+            [
+              "Registers and cache",
+              "Very fast, small working places close to the CPU.",
+              "They hold information the processor needs immediately."
+            ],
+            [
+              "RAM",
+              "Holds programs and data currently in use.",
+              "Usually volatile: its contents are lost when power is removed."
+            ],
+            [
+              "Storage drive",
+              "Keeps files and programs for later use.",
+              "An SSD uses flash memory; an HDD uses magnetic spinning platters."
+            ],
+            [
+              "Graphics processor (GPU)",
+              "Processes graphics and many parallel calculations.",
+              "It may be built into the processor or installed separately."
+            ],
+            [
+              "Power supply and cooling",
+              "The power supply provides suitable electrical power; fans or heat sinks remove heat.",
+              "Do not open a power supply. It can be dangerous."
+            ],
+            [
+              "Ports and network adapter",
+              "Connect peripherals or send and receive network data.",
+              "USB, audio, HDMI, Wi-Fi and Ethernet are familiar examples."
+            ]
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "How the processor follows instructions"
+        },
+        {
+          "type": "paragraph",
+          "text": "The processor gets an instruction and the data it needs, interprets the instruction, carries it out and keeps the result ready for the next step. The Control Unit coordinates this work. The ALU handles arithmetic and logical comparisons. Registers provide very small, very fast temporary storage inside the processor. The processor repeats instruction steps rapidly while a program runs."
+        },
+        {
+          "type": "callout",
+          "title": "A clear exam answer",
+          "text": "If asked for the function of the ALU, say that it performs arithmetic calculations and logical comparisons. Do not write only 'it is part of the CPU'. Name the job."
+        }
+      ]
+    },
+    {
+      "title": "5. Memory and storage are related but different",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "People use the word memory in more than one way. In exam answers, state which kind you mean. RAM is the computer's short-term working area. Secondary storage keeps files and programs even when the computer is switched off."
+        },
+        {
+          "type": "table",
+          "headers": [
+            "Type",
+            "Keeps data without power?",
+            "Examples and use"
+          ],
+          "rows": [
+            [
+              "RAM",
+              "Usually no.",
+              "Temporary working data and programs currently open."
+            ],
+            [
+              "ROM / firmware memory",
+              "Yes.",
+              "Non-volatile instructions that help a device start and manage hardware. Modern firmware commonly uses updateable flash memory."
+            ],
+            [
+              "Cache and registers",
+              "Usually no.",
+              "Very small, very fast working places close to or inside the processor."
+            ],
+            [
+              "HDD / magnetic storage",
+              "Yes.",
+              "Stores files magnetically on rotating platters; often offers large capacity at lower cost."
+            ],
+            [
+              "SSD / flash storage",
+              "Yes.",
+              "Stores data in flash chips; has no spinning disk and is common in laptops and phones."
+            ],
+            [
+              "Optical storage",
+              "Yes, once written.",
+              "CD, DVD and Blu-ray discs use a laser to read data; some discs are read-only."
+            ],
+            [
+              "USB drive / memory card",
+              "Yes.",
+              "Portable flash storage that moves files between compatible devices."
+            ]
+          ]
+        },
+        {
+          "type": "callout",
+          "title": "RAM is not the same as a storage drive",
+          "text": "More RAM can help a computer keep more active programs and data ready for the processor. More storage capacity allows it to keep more files. Adding a larger storage drive does not automatically give a computer more RAM."
+        },
+        {
+          "type": "paragraph",
+          "text": "When comparing storage, consider capacity, speed, portability, durability, cost, compatibility and security. Back up important schoolwork in a second safe place. A cloud folder can help, but access depends on an account and network connection; settings and permissions matter."
+        }
+      ]
+    },
+    {
+      "title": "6. Network, cloud and emerging storage",
+      "blocks": [
+        {
+          "type": "table",
+          "headers": [
+            "Storage system",
+            "Simple explanation",
+            "Benefit and limit"
+          ],
+          "rows": [
+            [
+              "Local drive",
+              "A drive inside or attached to one computer.",
+              "Works without internet; the device can be lost or damaged."
+            ],
+            [
+              "Network storage",
+              "A drive or server shared through a school or organisation network.",
+              "Many authorised users can reach shared files; access must be managed."
+            ],
+            [
+              "Cloud storage",
+              "Files are kept on remote computers and reached over the internet.",
+              "Can support access from different places; needs a connection, account and privacy settings."
+            ],
+            [
+              "Smart card / memory card",
+              "A small card with a chip or flash memory.",
+              "Portable and compact; can be lost, damaged or used in incompatible devices."
+            ],
+            [
+              "Holographic storage",
+              "An emerging idea for storing data in a material using light patterns.",
+              "Study it as an advanced storage concept, not as a common school storage device."
+            ],
+            [
+              "Server or media storage",
+              "A computer system designed to keep and deliver files to other devices.",
+              "Can serve many users; requires maintenance, power and security."
+            ]
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "A network adapter connects a computer to a network. A router helps direct data between networks. These communication parts let systems exchange files, requests and results; they do not replace the CPU or storage drive."
+        }
+      ]
+    },
+    {
+      "title": "7. Computer generations and new trends",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "A computer generation is a broad way to describe major changes in computer technology. Generation names and dates can differ between textbooks. For Ghana exams, use the grade-specific NaCCA wording taught in class and explain the feature that makes the technology different."
+        },
+        {
+          "type": "table",
+          "headers": [
+            "Grade focus",
+            "What to understand",
+            "Exam-ready detail"
+          ],
+          "rows": [
+            [
+              "Basic 7: fourth generation",
+              "Microprocessors placed the CPU on a chip and helped make personal computers smaller and more available.",
+              "Recognise a microchip and describe the processor's role."
+            ],
+            [
+              "Basic 8: fifth generation",
+              "NaCCA asks learners to discuss fifth-generation computers with emphasis on quantum computing.",
+              "Explain that a quantum computer uses qubits and quantum effects for specialised tasks. It is not simply a faster laptop."
+            ],
+            [
+              "Basic 9: next generation",
+              "Consider the direction of computing, including perceptual systems, advanced storage, AI and other emerging designs.",
+              "Describe a trend, give a realistic example, then state a benefit or challenge."
+            ]
+          ]
+        },
+        {
+          "type": "table",
+          "headers": [
+            "Trend",
+            "In simple words",
+            "Careful point"
+          ],
+          "rows": [
+            [
+              "Quantum computing",
+              "Uses quantum bits (qubits) and quantum operations to explore certain problems in a different way from ordinary digital computers.",
+              "It is specialised technology. A qubit count alone cannot prove that a machine is faster for every task."
+            ],
+            [
+              "High-performance computing",
+              "Many powerful processors or computers work together on large scientific or engineering tasks.",
+              "It describes a way of using computing power, not one single computer generation."
+            ],
+            [
+              "Neuromorphic computing",
+              "Some chips are designed to take ideas from how networks of brain cells process signals.",
+              "The chip does not think or understand exactly as a human brain does."
+            ],
+            [
+              "DNA computing",
+              "Experimental approaches use biological molecules in computations.",
+              "It is a research direction, not a normal classroom computer."
+            ],
+            [
+              "Artificial intelligence",
+              "Software performs tasks such as recognising speech, images or patterns.",
+              "AI runs on hardware; it is not itself a computer part."
+            ],
+            [
+              "Edge computing",
+              "Data is processed near the device or sensor that created it instead of sending every task to a distant server.",
+              "It can reduce delay, but devices still need suitable software and security."
+            ]
+          ]
+        },
+        {
+          "type": "callout",
+          "title": "A current example for the NaCCA case study",
+          "text": "NaCCA names Google's Sycamore quantum computer for Basic 9 discussion. Google's current Cirq device documentation describes Sycamore as an earlier 54-qubit layout and also lists a newer Willow 105-qubit layout. Treat Sycamore as the curriculum case study, not as a claim that it is today's newest processor. Qubit count and ordinary supercomputer speed are different measures."
+        }
+      ]
+    },
+    {
+      "title": "8. Perceptual computing",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Perceptual computing describes computer systems that use sensors and software to recognise or respond to signals from people or the surrounding environment. Examples include a phone responding to a spoken command, a camera-based system recognising a face, or a device reacting to a hand gesture."
+        },
+        {
+          "type": "diagram",
+          "id": "perception"
+        },
+        {
+          "type": "paragraph",
+          "text": "A perceptual system usually collects a signal, converts it to digital data, analyses patterns and produces a response. A microphone can capture speech; recognition software can identify likely words; a speaker can read a response aloud. The system can make mistakes when sound is noisy, light is poor or the data do not represent the people using it."
+        },
+        {
+          "type": "callout",
+          "title": "Use sensing responsibly",
+          "text": "A camera, microphone or biometric reader may collect personal information. Explain what is collected, ask permission where required and protect the data. Recognition can be wrong, so important decisions need a way for a person to check the result."
+        },
+        {
+          "type": "paragraph",
+          "text": "Basic 9 also studies newer output forms. A wearable display shows information on a device worn by a person. E-paper is a screen technology designed to look like printed paper. An e-book is a digital publication; an e-reader is the device that displays it. Some curriculum examples use the Kindle name for an e-reader."
+        }
+      ]
+    },
+    {
+      "title": "9. Put the parts together",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "When you investigate a computer system, start with the task. Ask what data enter, which program gives instructions, which parts process and hold the data, how the result leaves the system and where the work is saved. The same device can fill several roles."
+        },
+        {
+          "type": "callout",
+          "title": "Example: preparing a class report",
+          "text": "A teacher enters marks with a keyboard or imports them from a file. A spreadsheet program tells the processor how to calculate totals and averages. RAM holds current work. The monitor shows the report. A printer can make a paper copy. The teacher saves the file to an SSD, USB drive or authorised network location. A teacher checks the results before sharing them."
+        },
+        {
+          "type": "paragraph",
+          "text": "If a lab computer is unavailable, learners can act out the system: one person supplies a mark, another follows a written rule to calculate an average, another announces the result, and another writes it on a record card. This shows why instructions, data, people and hardware all matter."
+        },
+        {
+          "type": "callout",
+          "title": "A useful BECE-style answer pattern",
+          "text": "For a device question, name its category, state its function and give an example. For a comparison, describe both items using the same feature. For an explanation, show what happens first and how that leads to the result. These are original practice prompts, not copied past BECE questions."
+        }
+      ]
+    }
+  ],
+  "teacher_activities": [
+    {
+      "title": "IPOS role-play",
+      "time": "10 minutes",
+      "steps": "Give learners four roles: input, processing, output and storage. Use a made-up quiz score and a simple rule such as 'add two marks'. Learners pass a paper card through the roles and explain what changes."
+    },
+    {
+      "title": "Device sorting",
+      "time": "10 minutes",
+      "steps": "Show or name devices found in the school and community. Learners sort them into input, processing, output, storage and communication. Ask which devices have more than one role."
+    },
+    {
+      "title": "Inside the system unit",
+      "time": "15 minutes",
+      "steps": "Use a labelled picture or an unplugged system-unit diagram. Learners match motherboard, processor, RAM, storage, power supply and cooling to their functions. Do not ask learners to open powered equipment."
+    },
+    {
+      "title": "Choose safe storage",
+      "time": "10 minutes",
+      "steps": "Present a schoolwork scenario. Groups choose a local drive, USB drive, network folder or cloud folder and justify the choice using access, backup, internet availability and privacy."
+    }
+  ],
+  "exam_questions": [
+    {
+      "kind": "Short answer",
+      "marks": 2,
+      "question": "State two differences between the CPU and the system unit.",
+      "answer": "The CPU is the processor chip that executes instructions. The system unit is the case that holds the CPU and other internal components such as the motherboard, RAM and storage."
+    },
+    {
+      "kind": "Classify",
+      "marks": 4,
+      "question": "A learner scans a QR code on a school notice, reads the notice on a screen and saves it for later. Identify one input device, one output device and one storage location that could be used.",
+      "answer": "Input: the camera or QR-code reader. Output: the screen. Storage: the phone's internal storage, a memory card or an authorised cloud location. Award credit for a valid example and role."
+    },
+    {
+      "kind": "Explain",
+      "marks": 4,
+      "question": "Explain how a spreadsheet can turn quiz marks into useful information. Include input, processing, output and storage.",
+      "answer": "The teacher enters or imports the marks as input. The spreadsheet follows instructions to calculate totals or an average. The result appears on screen or can be printed as output. The teacher saves the file to a drive or authorised network location for later use."
+    },
+    {
+      "kind": "Compare",
+      "marks": 3,
+      "question": "Give one difference between RAM and an SSD, then give one appropriate use for each.",
+      "answer": "RAM is usually volatile working memory for programs and data currently in use. An SSD is non-volatile secondary storage that keeps files when power is off. Example: RAM holds an open spreadsheet; an SSD keeps the saved spreadsheet file."
+    },
+    {
+      "kind": "Function",
+      "marks": 3,
+      "question": "State the function of the Control Unit and the ALU in the CPU.",
+      "answer": "The Control Unit coordinates instruction steps and signals other parts. The ALU performs arithmetic calculations and logical comparisons."
+    },
+    {
+      "kind": "Apply",
+      "marks": 3,
+      "question": "Classify a touchscreen. Explain why your answer has more than one category.",
+      "answer": "It is both input and output. It displays information as output and detects a user's touch as input."
+    },
+    {
+      "kind": "Discuss",
+      "marks": 4,
+      "question": "State one benefit and one limitation of cloud storage for schoolwork. Give one safe-use step.",
+      "answer": "A benefit is that an authorised user may access backed-up work from different devices. A limitation is that access may depend on an internet connection and account. A safe-use step is to use a strong password and share only with authorised people."
+    },
+    {
+      "kind": "Basic 9",
+      "marks": 4,
+      "question": "What is perceptual computing? Give one example and one reason its result should be checked.",
+      "answer": "Perceptual computing uses sensors and software to recognise or respond to signals such as speech, images or gestures. Example: a device recognises a spoken command. It should be checked because noise, poor lighting or unrepresentative data can cause errors."
+    },
+    {
+      "kind": "Basic 8 / 9",
+      "marks": 4,
+      "question": "What is a qubit? Give one reason a quantum computer should not simply be described as a faster ordinary computer.",
+      "answer": "A qubit is the information unit used by a quantum computer and can use quantum states and operations. Quantum computers target specialised tasks; their qubit count cannot be directly compared with ordinary processor speed for every type of work."
+    },
+    {
+      "kind": "Storage",
+      "marks": 3,
+      "question": "Name the three common storage technologies and give one example of each.",
+      "answer": "Magnetic: hard disk drive or tape. Optical: CD, DVD or Blu-ray disc. Solid-state: SSD, USB flash drive or memory card."
+    }
+  ],
+  "glossary": [
+    {
+      "term": "ALU",
+      "definition": "Arithmetic Logic Unit. A CPU component that performs calculations and logical comparisons."
+    },
+    {
+      "term": "Computer system",
+      "definition": "Hardware and software working with data, people and procedures to complete tasks."
+    },
+    {
+      "term": "CPU",
+      "definition": "Central Processing Unit. The processor that executes instructions and processes data."
+    },
+    {
+      "term": "Data",
+      "definition": "Facts or symbols collected for processing."
+    },
+    {
+      "term": "Edge computing",
+      "definition": "Processing data near the device or sensor that created it."
+    },
+    {
+      "term": "Firmware",
+      "definition": "Software stored in a device that helps control its basic functions."
+    },
+    {
+      "term": "Hardware",
+      "definition": "The physical parts of a computer system."
+    },
+    {
+      "term": "HDD",
+      "definition": "Hard Disk Drive. A magnetic storage device with rotating platters."
+    },
+    {
+      "term": "Input device",
+      "definition": "A device that sends data or control signals into a computer."
+    },
+    {
+      "term": "IPOS",
+      "definition": "Input, Processing, Output and Storage. A model for following a computer task."
+    },
+    {
+      "term": "Motherboard",
+      "definition": "The main circuit board that connects major computer parts."
+    },
+    {
+      "term": "Output device",
+      "definition": "A device that presents information from a computer."
+    },
+    {
+      "term": "Perceptual computing",
+      "definition": "Computing that uses sensors and software to recognise or respond to signals from people or the environment."
+    },
+    {
+      "term": "Peripheral",
+      "definition": "A device connected to a computer to add functions such as input, output, storage or communication."
+    },
+    {
+      "term": "Processing",
+      "definition": "Following instructions to organise, calculate or change data."
+    },
+    {
+      "term": "RAM",
+      "definition": "Random Access Memory. Volatile working memory for programs and data in use."
+    },
+    {
+      "term": "ROM",
+      "definition": "Read-Only Memory. A traditional name for non-volatile memory holding basic device instructions; modern firmware often uses updateable flash."
+    },
+    {
+      "term": "Secondary storage",
+      "definition": "Storage that keeps programs and files for later use, even without power."
+    },
+    {
+      "term": "Software",
+      "definition": "Programs and instructions that tell computer hardware what to do."
+    },
+    {
+      "term": "SSD",
+      "definition": "Solid-State Drive. A non-volatile drive that stores data in flash memory."
+    },
+    {
+      "term": "System unit",
+      "definition": "The case that holds internal computer parts such as the motherboard, processor, memory, storage and power supply."
+    },
+    {
+      "term": "Information",
+      "definition": "Data processed into a result that is useful for a purpose."
+    },
+    {
+      "term": "Qubit",
+      "definition": "A unit of information used by a quantum computer."
+    }
+  ],
+  "quiz": [
+    {
+      "question": "Which device captures printed text or a picture and sends it into a computer?",
+      "choices": [
+        "Speaker",
+        "Scanner",
+        "Projector",
+        "Plotter"
+      ],
+      "answer": 1,
+      "explanation": "A scanner is an input device. It captures a paper image and makes a digital copy."
+    },
+    {
+      "question": "Which part executes program instructions?",
+      "choices": [
+        "CPU",
+        "Printer",
+        "Router",
+        "Power cable"
+      ],
+      "answer": 0,
+      "explanation": "The CPU, or processor, executes instructions and processes data."
+    },
+    {
+      "question": "Which statement about RAM is correct?",
+      "choices": [
+        "It is a printer type",
+        "It usually holds current working data temporarily",
+        "It is a cloud account",
+        "It always keeps its contents when power is off"
+      ],
+      "answer": 1,
+      "explanation": "RAM is working memory and is usually volatile."
+    },
+    {
+      "question": "Which pair gives one input and one output device?",
+      "choices": [
+        "Keyboard and monitor",
+        "Speaker and projector",
+        "Mouse and scanner",
+        "Printer and headphones"
+      ],
+      "answer": 0,
+      "explanation": "A keyboard enters data; a monitor displays output."
+    },
+    {
+      "question": "What is the main job of the ALU?",
+      "choices": [
+        "Print a report",
+        "Perform arithmetic and logical operations",
+        "Store every file permanently",
+        "Connect a keyboard wirelessly"
+      ],
+      "answer": 1,
+      "explanation": "The ALU performs calculations and logical comparisons."
+    },
+    {
+      "question": "Which storage technology uses a laser to read a disc?",
+      "choices": [
+        "Magnetic",
+        "Optical",
+        "Solid-state",
+        "Cloud"
+      ],
+      "answer": 1,
+      "explanation": "CD, DVD and Blu-ray are optical storage media."
+    },
+    {
+      "question": "Why can a touchscreen count as input and output?",
+      "choices": [
+        "It stores files in the cloud",
+        "It prints and scans",
+        "It displays information and detects touch",
+        "It controls the power supply"
+      ],
+      "answer": 2,
+      "explanation": "The screen displays output and senses a touch as input."
+    },
+    {
+      "question": "Which is a careful statement about quantum computers?",
+      "choices": [
+        "They replace every laptop",
+        "They are specialised computers that use qubits",
+        "Every qubit equals one CPU core",
+        "They never make errors"
+      ],
+      "answer": 1,
+      "explanation": "Quantum computers use qubits and target specialised tasks; they do not replace ordinary computers for every job."
+    }
+  ],
+  "flashcards": [
+    {
+      "front": "What is hardware?",
+      "back": "The physical parts of a computer system."
+    },
+    {
+      "front": "What does CPU stand for?",
+      "back": "Central Processing Unit. It executes instructions and processes data."
+    },
+    {
+      "front": "What does the ALU do?",
+      "back": "It performs arithmetic calculations and logical comparisons."
+    },
+    {
+      "front": "What does the Control Unit do?",
+      "back": "It coordinates instruction steps and signals other parts of the computer."
+    },
+    {
+      "front": "What is RAM used for?",
+      "back": "It temporarily holds programs and data that are currently in use."
+    },
+    {
+      "front": "How is an SSD different from an HDD?",
+      "back": "An SSD uses flash memory and has no spinning disk. An HDD stores data magnetically on rotating platters."
+    },
+    {
+      "front": "Give one input and one output device.",
+      "back": "Input: keyboard. Output: monitor. Many other valid examples exist."
+    },
+    {
+      "front": "Why is a touchscreen both input and output?",
+      "back": "It displays information and detects a user's touch."
+    },
+    {
+      "front": "What does IPOS mean?",
+      "back": "Input, Processing, Output and Storage."
+    },
+    {
+      "front": "What is perceptual computing?",
+      "back": "Computing that uses sensors and software to recognise or respond to signals such as speech, images or gestures."
+    },
+    {
+      "front": "Name the three common storage technologies.",
+      "back": "Magnetic, optical and solid-state."
+    },
+    {
+      "front": "What is cloud storage?",
+      "back": "Data storage on remote computers that users access over a network, usually the internet."
+    }
+  ],
+  "videos": [
+    {
+      "title": "How Computers Work: CPU, Memory, Input & Output",
+      "creator": "Code.org / Khan Academy",
+      "duration": "4:17",
+      "embed": "MMzdKTtUIFM",
+      "url": "https://www.youtube.com/watch?v=MMzdKTtUIFM",
+      "description": "A short animation follows input, processing, memory and output. Watch for the keyboard-to-screen example."
+    },
+    {
+      "title": "Building the Future of Quantum Computing",
+      "creator": "Google Quantum AI",
+      "duration": "About 4 minutes",
+      "embed": "wrpikLaV5NA",
+      "url": "https://www.youtube.com/watch?v=wrpikLaV5NA",
+      "description": "An introduction to Google's work on quantum computers. Use it as an extension after learning the difference between ordinary and quantum processors."
+    }
+  ],
+  "references": [
+    {
+      "label": "NaCCA Computing Curriculum for Basic 7-9 (2021), Strand 1, Sub-strand 1",
+      "detail": "Printed pages 2-4 (Basic 7), 24-25 (Basic 8) and 41-42 (Basic 9).",
+      "url": "https://nacca.gov.gh/wp-content/uploads/2023/06/COMPUTING.pdf"
+    },
+    {
+      "label": "Code.org / Khan Academy, How Computers Work: CPU, Memory, Input & Output",
+      "detail": "Short video lesson and transcript used as a further-learning resource.",
+      "url": "https://www.khanacademy.org/computing/computers-and-internet/xcae6f4a7ff015e7d%3Acomputers/xcae6f4a7ff015e7d%3Acomputer-components/v/khan-academy-and-codeorg-cpu-memory-input-output"
+    },
+    {
+      "label": "Google Quantum AI, Google devices in Cirq",
+      "detail": "Current device documentation distinguishes the earlier Sycamore layouts from the Willow105 layout.",
+      "url": "https://quantumai.google/cirq/google/devices"
+    },
+    {
+      "label": "Google Quantum AI, Building the Future of Quantum Computing",
+      "detail": "Video linked for extension learning; published by Google Quantum AI.",
+      "url": "https://www.youtube.com/watch?v=wrpikLaV5NA"
+    },
+    {
+      "label": "Excellence Series, Computing for JHS Basic 9",
+      "detail": "Supplied chapter excerpt on Introduction to Computing and Components of Computers and Computer Systems."
+    },
+    {
+      "label": "TIM Series, Computing for JHS Basic 9",
+      "detail": "Supplied chapter excerpt on next-generation computer trends and the computer-system strand."
+    },
+    {
+      "label": "Successlink Publications, Computing for Junior High Schools Basic 9",
+      "detail": "Supplied chapter excerpt on Components of Computers and Computer Systems."
+    }
+  ]
+}
